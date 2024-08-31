@@ -17,6 +17,8 @@
 
 This exploratory data analysis is to investigate if the average duration of movies has been declining and explain some of the contributing factors, if any.
 
+![Movie Duration by Year of Release](https://github.com/user-attachments/assets/9c476da6-b28c-4e0f-8d4d-24514cdbb2e5)
+
 ### Data Source
 
 Data: The primary data used for this analysis is the "netflix_data.csv" file, containing detailed information about the movies showed by the Netflix company.
