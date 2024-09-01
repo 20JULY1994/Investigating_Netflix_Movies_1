@@ -23,7 +23,7 @@ This exploratory data analysis is to investigate if the average duration of movi
 ### Data Source
 ---
 
-Data: The primary data used for this analysis is the [netflix_data.csv](), containing detailed information about the movies showed by the Netflix company.
+Data: The primary data used for this analysis is the [netflix_data.csv](https://github.com/20JULY1994/Investigating_Netflix_Movies_1/commit/1b766e51fde2e641b01fb79062583b5eb330957f), containing detailed information about the movies showed by the Netflix company.
 
 
 ### Tools
