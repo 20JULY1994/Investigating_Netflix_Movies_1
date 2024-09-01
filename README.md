@@ -14,33 +14,41 @@
 - [References](#references)
   
 ### Project Overview
+---
 
 This exploratory data analysis is to investigate if the average duration of movies has been declining and explain some of the contributing factors, if any.
 
 ![Movie Duration by Year of Release](https://github.com/user-attachments/assets/9c476da6-b28c-4e0f-8d4d-24514cdbb2e5)
 
 ### Data Source
+---
 
-Data: The primary data used for this analysis is the "netflix_data.csv" file, containing detailed information about the movies showed by the Netflix company.
+Data: The primary data used for this analysis is the [netflix_data.csv](), containing detailed information about the movies showed by the Netflix company.
+
 
 ### Tools
+---
 
 - Python
 
 ### Steps
+---
+
 In the initial phase, I performed:
 - Data Loading and inspection
 - Handling missing value
 
 ### Exploratory Data Analysis
+---
 
 EDA involves exploring netflix data to answer key question, such as:
- - What is the title of the movie with the shortest duration, including its country of release, genre and release year ?
+ - What is the `title` of the movie with the shortest duration, including its `country of release`, `genre` and `release year` ?
  - Use scatter plot to explore if movie duration are getting shorter:
-    - Color code "Children" in "genre" variable as red, "Documentaries" as blue, "Stand-Up" as green, others as black
+    - Color code *Children* in `genre` variable as *red*, *Documentaries* as *blue*, *Stand-Up* as *green*, others as *black*.
  - Are we certain that movies are getting shorter?
 
 ### Data Analysis
+---
 
 Include some interesting code/features worked with
 
@@ -131,23 +139,27 @@ plt.show()
 ```
 
 ### Result/Findings
+---
 
 The Analysis results are summarize as follows:
-1. The shortest duration time for movie shown by Netflix company was 3 minutes.
-2. The title of the movie is Silent, which belongs to the Children genre released in 2014 from the United States.
+1. The shortest duration time for movie shown by Netflix company was **3 minutes**.
+2. The title of the movie is **Silent**, which belongs to the **Children** `genre` released in *2014* from **the United States**.
 3. There wasn't certainty from the scatter plot if movies duration are getting shorter.
 
 ### Recommendations
+---
 
 - Further data need to be collected regarding viewers' appraisal
 
 ### Limitations
+---
+
 None
 
 ### References
+---
 
 1. Python For Data Analysis 3E (Online) by Wes Mckinney [Click here to preview](https://wesmckinney.com/book)
 2. Mataplotlib Customization in Intermediate Python Course for Associate Data Scientist in Python Carrer Track in DataCamp by Hugo Bowne-Henderson
 3. Filtering DataFrames in Intermediate Python Course for Associate Data Scientist in Python Carrer Track in DataCamp Inc by Hugo Bowne-Henderson
-4. For loop in Intermediate Python Course for Associate Data Scientist in Python Carrer Track in DataCamp Inc by Hugo Bowne-Henderson
- 
+4. For loop in Intermediate Python Course for Associate Data Scientist in Python Carrer Track in DataCamp Inc by Hugo Bowne-Henderson.
