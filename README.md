@@ -86,14 +86,6 @@ short_movies["country"] = short_movies["country"].fillna(short_movies["country"]
 # Checking for missing values
 print(short_movies.isna().sum())
 
-threshold = len(short_movies) * 0.05
-
-print(threshold)
-
-col_drop = short_movies.columns[short_movies.isna().sum() <= threshold]
-
-print(col_drop)
-
 # Impute the mode for the rows with missing values in country variable
 short_movies["country"] = short_movies["country"].fillna(short_movies["country"].mode()[0])
 
